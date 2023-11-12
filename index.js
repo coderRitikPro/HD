@@ -16,8 +16,8 @@ wishes();
 
 
  async function wishes() {
- 
-if(audio==false){ let name = prompt("Type your name here");}
+ let name ;
+if(audio==false){ name = prompt("Type your name here");}
 if (name != null) {
 document.getElementById("wishes").innerHTML =
 "HAPPY DIWALI ✨ " + name;
